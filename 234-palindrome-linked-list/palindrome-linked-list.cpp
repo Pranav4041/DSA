@@ -42,12 +42,6 @@ public:
             right=right->next;
         }
         return result;
-        while(curr)
-        {
-            ListNode*next=curr->next;
-            curr->next=prev;
-            prev=curr;
-            curr=next;
-        }
+        
     }
 };
